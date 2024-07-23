@@ -1,6 +1,9 @@
-f = open('output/tmp.txt','w')
+f = open('./output/tmp.txt','r')
+k = open('./output/kifele.txt','w')
+
+print(f.readline())
 
 for i in range(10):
-    f.write(f"{i+1}\n")
+    k.write(f"{i+1}\n")
     
-f.close()
+k.close()
